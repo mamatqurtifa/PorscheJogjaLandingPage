@@ -1,6 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import Porsche911 from './assets/porsche-onroad.jpg';
+import Porsche718 from './assets/porsche-718.webp';
+import PorscheTaycan from './assets/porsche-turbo-s.webp';
+import PorscheMacan from './assets/porsche-macan.webp';
+import PorschePanamera from './assets/porsche-panamera.webp';
 
 const ProductList = () => {
   return (
@@ -29,7 +33,7 @@ const ProductList = () => {
           {/* Two small items */}
           <div className="relative overflow-hidden rounded-2xl shadow-lg group bg-white">
             <img
-              src="../src/assets/porsche-turbo-s.webp"
+              src={ PorscheTaycan }
               alt="Food"
               className="w-full h-auto object-cover"
             />
@@ -43,7 +47,7 @@ const ProductList = () => {
           </div>
           <div className="relative overflow-hidden rounded-2xl shadow-lg group">
             <img
-              src="../src/assets/porsche-718.webp"
+              src={ Porsche718 }
               alt="Technology"
               className="w-full h-auto object-cover"
             />
@@ -59,7 +63,7 @@ const ProductList = () => {
           {/* Three medium items */}
           <div className="relative overflow-hidden rounded-2xl shadow-lg group bg-white">
             <img
-              src="../src/assets/porsche-panamera.webp"
+              src={ PorschePanamera }
               alt="Travel"
               className="w-full h-auto object-cover"
             />
@@ -73,7 +77,7 @@ const ProductList = () => {
           </div>
           <div className="relative overflow-hidden rounded-2xl shadow-lg group bg-white">
             <img
-              src="../src/assets/porsche-macan.webp"
+              src={ PorscheMacan }
               alt="Art"
               className="w-full h-auto object-cover"
             />
