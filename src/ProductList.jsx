@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
+import Porsche911 from './assets/porsche-onroad.jpg';
 
 const ProductList = () => {
   return (
@@ -10,7 +11,7 @@ const ProductList = () => {
           {/* Large item */}
           <div className="md:col-span-2 md:row-span-2 relative overflow-hidden rounded-2xl shadow-lg group">
             <img
-              src="../src/assets/porsche-onroad.jpg"
+              src={ Porsche911 }
               alt="Nature"
               className="w-full h-full object-cover"
             />
